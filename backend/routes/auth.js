@@ -11,14 +11,15 @@ authRouter.post('/register', async (req, res) => {
         }   
         const user = new User({ userName, userEmail, password });
         await user.save();
-        res.status(201).send('User registered successfully');
+        console.log(user)
+        return res.status(201).send('User registered successfully');
     } catch (err) {
         res.status(400).send(err.message);
     }
 });
 
 authRouter.post('/login', async (req, res) => {
-    const { userEmail, password } = req.body; 
+    const { userEmail, password } = req.body;
     try {
         const user = await User.findOne({ userEmail: userEmail });
         if(!user) {
