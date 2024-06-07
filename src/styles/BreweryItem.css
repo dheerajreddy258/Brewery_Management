@@ -1,0 +1,13 @@
+.brew-container{
+    background-color: white;
+    width:340px;
+    min-height:340px;
+    margin: 20px;
+    padding: 7px;
+    border-radius: 8px;
+    color:black;
+}
+
+.brew-container a{
+    color:black
+}

@@ -1,0 +1,109 @@
+.brewery-deatils-id{
+    margin:10px auto;
+    width:80vw;
+    padding: 10px 20px; 
+}
+
+.brewery-main{
+    background-color: white;
+    color:black;
+    width:320px; 
+    margin:5px auto;
+    padding:2px 5px;
+    border-radius:18px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.review-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-container h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.review-container label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+input{
+    margin-left: 8px;
+}
+
+form{
+    text-align: center;
+    width:450px;
+    padding-top: 25px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.review-container input[type="number"],
+.review-container textarea {
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-left: 9px;
+}
+
+textarea{
+    width: 300px;
+}
+
+.review-container input[type="number"]:focus,
+.review-container textarea:focus {
+    border-color: #8CC6AF;
+    outline: none;
+}
+
+.review-container textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.review-container button[type="submit"] {
+    background-color: #8CC6AF;
+    color: white;
+    border: none;
+    width:100px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-container button[type="submit"]:hover {
+    background-color: #7BB296;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.brew-btn{
+    width:200px;
+    text-align: left;
+}

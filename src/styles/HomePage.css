@@ -1,0 +1,68 @@
+.navbar{
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 6px;
+    background-color: #487577;
+    color: white;
+    flex-wrap: wrap;
+    font-family: 'petrona';
+    font-size: 16px;
+}
+
+.app-name{
+    font-size:22px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.search-filters select{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #487577;  
+}
+
+.search-filters input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #487577;  
+    padding-left: 8px;
+}
+
+.home-content{ 
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:750px){
+    .app-name{
+        display: none;
+    }
+    .user-detail{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+.search-btn{
+    width:120px !important;
+    margin: 10px!important;
+    padding: 5px 8px;
+    border-radius: 5px;
+    color:white;
+    background-color: #7995b0;
+    font-weight: bold;
+}
