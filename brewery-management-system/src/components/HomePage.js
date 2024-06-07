@@ -53,7 +53,7 @@ export default function HomePage() {
         <div>
             <div className="navbar">
                 <Link to="/">
-                    <div className="app-name">Dheeraj's Brewery store</div>
+                    <div className="app-name"> Brewery store Review system</div>
                 </Link>
                 <div className="search-filters">
                     <select name="search" id="search" onChange={(e) => setFilter(e.target.value)}>
